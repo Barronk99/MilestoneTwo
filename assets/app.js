@@ -10,9 +10,10 @@ const scissors_div = document.getElementById("s");
 
 function getComputerChoice() {
     const choices = ['r','p','s'];
-    console.log(math.random());
+    console.log(math.floor(math.random() x 3));
+    return choices[randomNumber];
 }
-getComputerChoice();
+console.log(getComputerChoice)();
 
 function game (userChoice) {
 
