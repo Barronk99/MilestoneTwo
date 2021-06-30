@@ -13,7 +13,18 @@ function getComputerChoice() {
     console.log(math.floor(math.random() x 3));
     return choices[randomNumber];
 }
-console.log(getComputerChoice)();
+
+function win() {
+    console.log("WIN");
+}
+
+function lose() {
+    console.log("LOSE");
+}
+
+function draw() {
+    console.log("DRAW");
+}
 
 function game (userChoice) {
     const computerChoice = getComputerChoice();
@@ -21,7 +32,7 @@ function game (userChoice) {
         case "rp":
         case "pr":
         case "sp":
-            wins();
+            win();
             break;
         case "rp":
         case "ps":
